@@ -1,0 +1,1 @@
+function responceFunc() { document.getElementById("demo").innerHTML = "yah"; }
