@@ -3,4 +3,4 @@
    
    
 
-   ![alt Logo](https://seeklogo.com/images/J/javascript-logo-8892AEFCAC-seeklogo.com.png "js") 
+  ![alt logo](https://raw.githubusercontent.com/voodootikigod/logo.js/master/js.png)
