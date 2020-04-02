@@ -1,1 +1,6 @@
-function responceFunc() { document.getElementById("demo").innerHTML = "yah"; }
+function responceFunc() {
+    var time = new Date();
+
+
+    document.getElementById("demo").innerHTML = time.getMonth();
+}
