@@ -5,5 +5,5 @@ class ClassWithStaticField {
 }
 
 function my_func() {
-    document.getElementById('demo').innerHTML = 'yes';
-}
+    document.getElementById('demo').innerHTML = "yes";
+}'yes'
