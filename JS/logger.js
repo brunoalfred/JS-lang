@@ -6,4 +6,4 @@ function log(message) {
 }
 
 module.exports.log = log;
-module.exports.url = url;
+console.log(module);
