@@ -14,3 +14,6 @@ console.log(os.arch());
 
 // * Free  Memory
 console.log(os.freemem());
+
+//  * Total System Memory
+console.log(os.totalmem());
