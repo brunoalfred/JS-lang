@@ -1,4 +1,4 @@
-const Person = require('./person');
+const path = require('path');
 
-var person_one = new Person('Bruno', 20);
-person_one.greeting();
+// For the file_name
+console.log(__filename);
