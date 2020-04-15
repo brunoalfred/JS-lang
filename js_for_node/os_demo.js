@@ -17,3 +17,6 @@ console.log(os.freemem());
 
 //  * Total System Memory
 console.log(os.totalmem());
+
+//  * Uptime of the system
+console.log(os.uptime());
