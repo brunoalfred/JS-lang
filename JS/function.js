@@ -1,14 +1,14 @@
 
-var sum = function (a = 2, b =2) {
+var sum = function (a = 2, b = 2) {
     return a + b;
 }
 
 function displayResult(fun) {
-    let answer = fun();
-    console.log(answer);
+    return fun();
+    
 }
 
 // const a = 3;
 // const b = 2;
 
-displayResult(sum(a, b));
+console.log(displayResult(sum()));
