@@ -1,5 +1,6 @@
 // Using the custome http module for Nodejs
 const http = require('http');
+const hostname = 3000;
 const port = process.env.PORT;
 
 
@@ -12,6 +13,8 @@ const server = http.createServer((req, res) => {
 
 });
 
-// 
+// Make the server run at URL => http://localhost:3000
+server.listen(port, hostname, () => {
 
+});
 
