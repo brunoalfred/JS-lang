@@ -16,5 +16,6 @@ const server = http.createServer((req, res) => {
 // Make the server run at URL => http://localhost:3000
 server.listen(port, hostname, () => {
 
+console.log(`Server Running at http://${hostname}:${port}`);
 });
 
