@@ -1,9 +1,4 @@
-const path = require('path');
-const fs = require('fs');
+// Destructuring Property for the JS
+ const {PI, E, SQRT1_2} = Math;
 
-
-// For the file_name
-fs.mkdir(path.join(__dirname, '/test'), {}, err => {
-    if (err) throw err ;
-    console.log('Folder created... ');
-})
+//# same as doing 
