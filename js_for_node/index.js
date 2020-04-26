@@ -9,6 +9,8 @@ const port = process.env.PORT || 3000;
 const app = express();
 
 //  setting up the route 
-
+app.route('/', (req, res, next) => {
+   fs.readFile('index.html', (err,))
+})
 
 
