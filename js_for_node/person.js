@@ -4,10 +4,11 @@ class Person {
         this.age;
     }
     greeting = function () {
-    console.log(`My name is ${this.name} and i\'m ${this.age} old`);
-}
-    
+        console.log(`My name is ${this.name} and i\'m ${this.age} old`);
+    }
+
 }
 
 
-module.exports = Person;
+// module.exports = Person;
+export.hello = function () { console.log('Mambo '); };
