@@ -1,4 +1,4 @@
-// // Destructuring Property for the JS
+// Destructuring Property for the JS
 // const { PI, E, SQRT1_2 } = Math;
 
 // //# same as doing this in js
@@ -7,9 +7,3 @@
 // const SQRT1_2 = Math.SQRT1_2;
 
 
-
-// with require
-const { readFile } = require('fs');
-
-const hello = require('./person');
-hello.hello();
