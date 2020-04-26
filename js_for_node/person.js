@@ -11,4 +11,4 @@ class Person {
 
 
 // module.exports = Person;
-exports.hello = function () { console.log('Mambo '); };
+module.exports = 3;

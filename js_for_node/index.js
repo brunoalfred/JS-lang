@@ -12,4 +12,4 @@
 const { readFile } = require('fs');
 
 const hello = require('./person');
-hello.hello();
+console.log(hello);
