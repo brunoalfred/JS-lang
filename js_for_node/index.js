@@ -10,3 +10,8 @@ const SQRT1_2 = Math.SQRT1_2;
 
 // with require
 const { readFile } = require('fs');
+
+
+class Person {
+    
+}
