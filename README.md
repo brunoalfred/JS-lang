@@ -1,4 +1,4 @@
-   # JavaScript
+   <p align="center"> JavaScript </p>
    
    
    
